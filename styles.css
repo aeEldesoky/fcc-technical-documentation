@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+header,
+.nav-link {
+    color: navy;
+}
+
+header {
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+.nav-link {
+    /* Remove the underline from hyperlinks */
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+/* Format code blocks */
+code {
+    display: block;
+    background-color: dfdfdf;
+    font-family: monospace;
+    text-align: left;
+}
+
+/* General main content & navbar formatting */
+
+#main-doc,
+#navbar {
+    padding-left: 20px;
+}
+
+#main-doc {
+    text-align: justify;
+}
+
+#navbar {
+    max-width: 300px;
+}
+
+/* For mobile phones and tablets */
+@media (max-width: 768px) {
+    #navbar {
+        /* Main content appears after navbar */
+        float: none;
+    }
+}
+
+/* For desktop and large screens */
+@media (min-width: 768px) {
+
+    /* Main content starts to the right of the navbar */
+    #main-doc {
+        padding-left: 300px;
+    }
+
+    #navbar {
+        /* Navbar is on the left */
+        float: left;
+
+        /* Navbar is fixed while the user scrolls main content */
+        position: fixed;
+
+        /* Navbar vertical scroll in a small browser window */
+        max-height: calc(100vh - 1rem);
+        overflow-y: auto;
+    }
+}
