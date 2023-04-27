@@ -2,7 +2,7 @@
 
 ## Description
 
-View a live demo at [Technical Documentation](https://aezz4007.github.io/fcc-technical-documentation/)
+View a live demo at [Technical Documentation](https://amira-ezz-eldin.github.io/fcc-technical-documentation/)
 
 This project is a part of the [Free Code Camp (FCC)](https://www.freecodecamp.org) "Responsive Web Design" certificate requirements.
 
